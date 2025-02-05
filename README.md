@@ -79,3 +79,21 @@ The realized volatility is computed as follows:
    - The script generates two CSV files:
      - `asml_realized_volatility.csv`
      - `bmw_realized_volatility.csv`
+
+
+## Results
+
+Each output CSV file contains the following columns:
+
+- **Date**: The date for which the realized volatility is calculated.
+- **Realized Volatility**: The calculated daily realized volatility based on 100 simulations.
+
+---
+
+## Additional Information
+
+This project demonstrates the application of:
+
+- **Monte Carlo Simulations**: To account for randomness in intraday price selection.
+- **Statistical Analysis**: Using log returns and root mean squared techniques to measure volatility.
+
