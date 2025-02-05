@@ -26,13 +26,13 @@ The realized volatility is computed as follows:
    - Five random price points are chosen in chronological order between SOD and EOD.
 
 3. **Calculate Log Returns**:
-   - Compute six log returns:
-  - \( r_1 = \log\left(\frac{p_1}{\text{SOD}}\right) \)
-  - \( r_2 = \log\left(\frac{p_2}{p_1}\right) \)
-  - \( r_3 = \log\left(\frac{p_3}{p_2}\right) \)
-  - \( r_4 = \log\left(\frac{p_4}{p_3}\right) \)
-  - \( r_5 = \log\left(\frac{p_5}{p_4}\right) \)
-  - \( r_6 = \log\left(\frac{\text{EOD}}{p_5}\right) \)
+- Compute six log returns:
+  - \( r_1 = \log(p_1 / \text{SOD}) \)
+  - \( r_2 = \log(p_2 / p_1) \)
+  - \( r_3 = \log(p_3 / p_2) \)
+  - \( r_4 = \log(p_4 / p_3) \)
+  - \( r_5 = \log(p_5 / p_4) \)
+  - \( r_6 = \log(\text{EOD} / p_5) \)
 
 4. **Calculate Realized Volatility**:
    - Compute the root mean squared of the log returns:
