@@ -64,3 +64,18 @@ The realized volatility is computed as follows:
 2. Install required libraries:
    ```bash
    pip install pandas numpy
+## Steps to Execute
+
+1. **Prepare the Dataset**:
+   - Ensure the `ASML NA EQUITY.csv` and `BMW GY EQUITY.csv` files are in the same directory as the script.
+
+2. **Run the Script**:
+   - Execute the Python script:
+     ```bash
+     python Realized_Vol_Python.py
+     ```
+
+3. **Output**:
+   - The script generates two CSV files:
+     - `asml_realized_volatility.csv`
+     - `bmw_realized_volatility.csv`
