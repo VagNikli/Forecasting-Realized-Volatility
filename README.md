@@ -27,12 +27,12 @@ The realized volatility is computed as follows:
 
 3. **Calculate Log Returns**:
 - Compute six log returns:
-  - $r_1 = \log(p_1 / \text{SOD}) $
-  - \( r_2 = \log(p_2 / p_1) \)
-  - \( r_3 = \log(p_3 / p_2) \)
-  - \( r_4 = \log(p_4 / p_3) \)
-  - \( r_5 = \log(p_5 / p_4) \)
-  - \( r_6 = \log(\text{EOD} / p_5) \)
+  - $r_1 = \log(p_1 / \text{SOD})$
+  - $r_2 = \log(p_2 / p_1)$
+  - $ r_3 = \log(p_3 / p_2) $
+  - $ r_4 = \log(p_4 / p_3)$
+  - $ r_5 = \log(p_5 / p_4)$
+  - $ r_6 = \log(\text{EOD} / p_5)$
 
 4. **Calculate Realized Volatility**:
    - Compute the root mean squared of the log returns:
