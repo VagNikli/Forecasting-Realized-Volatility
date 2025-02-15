@@ -1,4 +1,4 @@
-# Realized Volatility Calculation for ASML and BMW Stocks
+# Realized Volatility for ASML and BMW Stocks
 
 This project computes the daily realized volatility for two stocks, **ASML** and **BMW**, using minute-by-minute price data for 10 days. The methodology leverages Monte Carlo simulations and statistical techniques to calculate realized volatility based on randomly selected intraday price points.
 
