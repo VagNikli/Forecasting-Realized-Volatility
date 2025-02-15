@@ -36,7 +36,8 @@ The realized volatility is computed as follows:
 
 4. **Calculate Realized Volatility**:
    - Compute the root mean squared of the log returns:
-    $\text{Realized Volatility} = \sqrt{\frac{r_1^2 + r_2^2 + r_3^2 + r_4^2 + r_5^2 + r_6^2}{6}} \times 16$
+     
+     $\text{Realized Volatility} = \sqrt{\frac{r_1^2 + r_2^2 + r_3^2 + r_4^2 + r_5^2 + r_6^2}{6}} \times 16$
 
 5. **Monte Carlo Simulations**:
    - Perform 100 simulations per day with different random selections of intraday prices.
