@@ -27,7 +27,7 @@ The realized volatility is computed as follows:
 
 3. **Calculate Log Returns**:
 - Compute six log returns:
-  - \( r_1 = \log(p_1 / \text{SOD}) \)
+  - $r_1 = \log(p_1 / \text{SOD}) $
   - \( r_2 = \log(p_2 / p_1) \)
   - \( r_3 = \log(p_3 / p_2) \)
   - \( r_4 = \log(p_4 / p_3) \)
