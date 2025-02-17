@@ -52,9 +52,15 @@ The realized volatility is computed as follows:
 - **`Realized_Vol_Python.py`**: Python script implementing the realized volatility calculation.
 - **`asml_realized_volatility.csv`**: Output file containing realized volatility for ASML.
 - **`bmw_realized_volatility.csv`**: Output file containing realized volatility for BMW.
+- **`visualization.ipynb`**: Notebook script containing a series of visualizations analyzing the realized volatility of ASML and BMW stocks.
+---
+## Realized Volatility Analysis
+- **Time Series of Realized Volatility:** Trends in volatility over time.
+- **Histogram of Realized Volatility:** Distribution of daily volatility.
+- **Box Plot of Realized Volatility:** Comparative view of stock volatility.
+- **Correlation Analysis:** Relationship between ASML and BMW volatilities.
 
 ---
-
 ## How to Run the Code
 
 ### Prerequisites
