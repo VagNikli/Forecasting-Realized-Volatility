@@ -79,7 +79,7 @@ The realized volatility is computed as follows:
      ```bash
      python Realized_Vol_Python.py
      ```
-
+     
 3. **Output**:
    - The script generates two CSV files:
      - `asml_realized_volatility.csv`
