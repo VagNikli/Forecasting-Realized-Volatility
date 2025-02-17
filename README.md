@@ -54,7 +54,7 @@ The realized volatility is computed as follows:
 - **`bmw_realized_volatility.csv`**: Output file containing realized volatility for BMW.
 - **`visualization.ipynb`**: Notebook script containing a series of visualizations analyzing the realized volatility of ASML and BMW stocks.
 ---
-## Realized Volatility Analysis
+## Realized Volatility Plot
 - **Time Series of Realized Volatility:** Trends in volatility over time.
 - **Histogram of Realized Volatility:** Distribution of daily volatility.
 - **Box Plot of Realized Volatility:** Comparative view of stock volatility.
